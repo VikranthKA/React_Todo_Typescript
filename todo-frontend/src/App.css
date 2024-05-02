@@ -1,0 +1,42 @@
+ *{
+  padding: 0;
+  margin:0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .header{
+  background-color: tomato;
+ }
+
+ h1{
+  
+  text-align: center;
+ }
+
+ #deadline-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-evenly;
+  
+}
+
+#task{
+  margin-left: 13.3%;
+}
+input{
+  width:50%;
+  height: 25px;
+  border-radius: 3px;
+}
+
+button{
+  width: 10%;
+  
+}

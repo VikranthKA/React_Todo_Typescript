@@ -1,0 +1,34 @@
+.container{
+    margin:20px 0 3px 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.delete-task{
+    background-color: red;
+    color:white;
+
+}
+
+.delete-task:hover{
+    background-color: darkred;
+}
+
+.update-task{
+    background-color: blue;
+    color:white;
+    margin-left: 2%;
+}
+
+.update-task:hover{
+    background-color: darkblue;
+}
+
+button{
+    width: 10%;
+    height: 30px;
+}
+
+h3,h2 {
+    width: 40%;
+}
+
